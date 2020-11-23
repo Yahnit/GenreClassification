@@ -1,8 +1,3 @@
+The primary objective of this project is to develop a system that classifies songs based on their genres using the textual content of the song. This work is a re-implementation of the paper ​Music Genre Classification Using Lyrics​ authored by Dipayan Dutta. Additionally​, ​we extensively study a few of the genres from Hollywood namely ​Rock, Hip-Hop, Pop, Country and Jazz​. Initially, we talk about individual genres regarding their origin, features, characteristics etc. In the later sections, we compare the genres and draw some differences and similarities between the genres.
+We do an extensive analysis of the data and draw some interesting inferences on the average length and number of unique words in songs of different genres. We then develop three models for genre classification, a) Multi-class classifier, b) Binary classifier and, c) Convolutional neural networks. Multi-class classifier and binary classifier are implemented using (i) Support Vector Machine(SVM), (ii) Decision tree, (iii) Logistic Regression, (iv) Decision tree, (v) Naive Bayes (Bernoulli and Multinomial), (vi) Random forest and, (vii) Multi-layer perceptron.
 This work is an implementation of the paper "Lyrics based Music Genre Classification" by Dipayan Datta (Author)
-
-Link : https://github.com/dipayandutta93/Music-Genre-Classification-using-lyrics
-
-This is a part of the digital humanities project.
-
-On top of this, I have trained the Classifiers with different
-sizes of dataset and analysed the accuracy of the classifiers as the sizes of datasets changed. With increase in the size of dataset which was trained, it led to increase in accuracies. However, the training time was increasing rapidly with increase in training dataset. I have done the same thing with the binary classifier as well. In CNN's I tried with more number of filter sizes and different number of convolutional and maxpool layers. In the data analysis section, I correlated the most unique words occuring in a particular type of genre with the nature of the genre. 
