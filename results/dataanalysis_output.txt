@@ -1,0 +1,40 @@
+For genre Rock
+Total number of songs: 1000
+Total words in the song: 219579
+Average number of words per song: 219.579
+Total number of unique words per song: 12.498
+Top ten most frequent word: [('the', 9755), ('you', 7347), ('i', 6389), ('and', 5037), ('to', 4911), ('a', 4241), ('in', 3015), ('it', 2923), ('me', 2900), ('my', 2671)]
+Without stopwords top 10 words:[('im', 1719), ('dont', 1366), ('know', 1205), ('like', 952), ('youre', 930), ('oh', 906), ('time', 865), ('never', 852), ('love', 842), ('got', 831), ('get', 783), ('see', 764)]
+-------------------------------------------
+For genre Jazz
+Total number of songs: 1000
+Total words in the song: 206569
+Average number of words per song: 206.569
+Total number of unique words per song: 8.97
+Top ten most frequent word: [('you', 7713), ('the', 7098), ('i', 6983), ('to', 4904), ('and', 4897), ('a', 4230), ('me', 3638), ('my', 3076), ('in', 2454), ('love', 2278)]
+Without stopwords top 10 words:[('love', 2278), ('im', 1415), ('know', 1273), ('dont', 1223), ('oh', 1041), ('baby', 1010), ('got', 859), ('like', 852), ('come', 789), ('youre', 735), ('time', 692), ('let', 687)]
+-------------------------------------------
+For genre Pop
+Total number of songs: 1000
+Total words in the song: 270492
+Average number of words per song: 270.492
+Total number of unique words per song: 14.221
+Top ten most frequent word: [('you', 10135), ('i', 9518), ('the', 8226), ('me', 5516), ('to', 5291), ('and', 5052), ('a', 4332), ('my', 3650), ('it', 2892), ('in', 2770)]
+Without stopwords top 10 words:[('im', 2356), ('love', 2224), ('oh', 1732), ('dont', 1502), ('know', 1451), ('like', 1419), ('que', 1193), ('baby', 1167), ('go', 1084), ('youre', 1059), ('see', 904), ('de', 896)]
+-------------------------------------------
+For genre Country
+Total number of songs: 1000
+Total words in the song: 194927
+Average number of words per song: 194.927
+Total number of unique words per song: 8.045
+Top ten most frequent word: [('the', 7893), ('i', 7306), ('and', 5963), ('you', 5323), ('to', 4655), ('a', 4212), ('my', 3035), ('me', 2914), ('in', 2655), ('of', 2468)]
+Without stopwords top 10 words:[('love', 1422), ('im', 1241), ('dont', 1001), ('know', 880), ('like', 875), ('', 704), ('one', 655), ('go', 651), ('ill', 640), ('time', 636), ('never', 630), ('way', 562)]
+-------------------------------------------
+For genre Hip-Hop
+Total number of songs: 1000
+Total words in the song: 504303
+Average number of words per song: 504.303
+Total number of unique words per song: 22.28
+Top ten most frequent word: [('the', 18716), ('i', 17465), ('you', 14218), ('a', 10918), ('to', 9443), ('and', 8953), ('my', 7835), ('me', 7505), ('it', 6991), ('im', 6635)]
+Without stopwords top 10 words:[('im', 6635), ('like', 4105), ('get', 3839), ('dont', 3323), ('know', 3025), ('got', 3016), ('nigga', 2614), ('', 2555), ('aint', 2305), ('shit', 2209), ('yeah', 1763), ('see', 1681)]
+-------------------------------------------

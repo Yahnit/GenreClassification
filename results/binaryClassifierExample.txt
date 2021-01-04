@@ -1,0 +1,76 @@
+For the below song which belongs to the pop genre, we have
+tested with all the 5 models that were built. After training
+the model, we tested the accuracy of the model with just
+one song and the label was given as "Non Genre" for all
+the models.
+
+------------------------------------------------
+Who can say where the road goes
+Where the day flows, only time
+And who can say if your love grows
+As your heart chose, only time
+
+Who can say why your heart sighs
+As your love flies, only time
+And who can say why your heart cries
+When your love lies, only time
+
+Who can say when the roads meet
+That love might be in your heart
+And who can say when the day sleeps
+If the night keeps all your heart
+Night keeps all your heart
+
+Who can say if your love grows
+As your heart chose, only time
+And who can say where the road goes
+Where the day flows, only time
+
+Who knows? Only time
+Who knows? Only time
+------------------------------------------------
+
+We have found that the models "Rock", "Country", "Hip-Hop" and "Jazz"
+predicted correctly that the song does not belong to their genres and
+can be reflected from the accuracy which is 1.0 as the model correctly
+predicted that the song as "Non Genre"
+
+Whereas, the Pop model predicted that the song belongs to the Pop genre
+This can be seen from the accuracy of the model which says 0 as the original
+label was given as "Non Pop". 
+
+Training...
+[[0. 0. 0. ... 0. 0. 0.]]
+[2]
+The genre predictd by our model is :
+2
+For genre : Rock
+rf accuracy : 1.0
+Training...
+[[0. 0. 0. ... 0. 0. 0.]]
+[2]
+The genre predictd by our model is :
+2
+For genre : Jazz
+rf accuracy : 1.0
+Training...
+[[0. 0. 0. ... 0. 0. 0.]]
+[2]
+The genre predictd by our model is :
+1
+For genre : Pop
+rf accuracy : 0.0
+Training...
+[[0. 0. 0. ... 0. 0. 0.]]
+[2]
+The genre predictd by our model is :
+2
+For genre : Country
+rf accuracy : 1.0
+Training...
+[[0. 0. 0. ... 0. 0. 0.]]
+[2]
+The genre predictd by our model is :
+2
+For genre : Hip-Hop
+rf accuracy : 1.0

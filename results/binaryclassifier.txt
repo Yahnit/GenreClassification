@@ -1,1 +1,54 @@
-For genre : Rockdt accuracy : 0.5134474327628362
+-----------------------------------------------
+For type Rock
+lyrics_Rock.csv
+{'Rock': 1, 'Non Rock': 2}
+x_train: 1837, x_test: 205, y_train: 1837, y_test: 205
+accuracy for multinomial naive bayes: 0.851219512195122
+accuracy for gaussian naive bayes: 0.826829268292683
+accuracy for LogisticRegression: 0.9390243902439025
+accuracy for Decision Tree: 0.8414634146341464
+accuracy for Random Forest: 0.8658536585365853
+
+-----------------------------------------------
+For type Jazz
+lyrics_Jazz.csv
+{'Jazz': 1, 'Non Jazz': 2}
+x_train: 1837, x_test: 205, y_train: 1837, y_test: 205
+accuracy for multinomial naive bayes: 0.975609756097561
+accuracy for gaussian naive bayes: 0.975609756097561
+accuracy for LogisticRegression: 0.975609756097561
+accuracy for Decision Tree: 0.9609756097560975
+accuracy for Random Forest: 0.975609756097561
+
+-----------------------------------------------
+For type Pop
+lyrics_Pop.csv
+{'Pop': 1, 'Non Pop': 2}
+x_train: 1837, x_test: 205, y_train: 1837, y_test: 205
+accuracy for multinomial naive bayes: 0.8951219512195122
+accuracy for gaussian naive bayes: 0.8804878048780488
+accuracy for LogisticRegression: 0.9
+accuracy for Decision Tree: 0.7878048780487804
+accuracy for Random Forest: 0.8902439024390244
+
+-----------------------------------------------
+For type Country
+lyrics_Country.csv
+{'Country': 1, 'Non Country': 2}
+x_train: 1837, x_test: 205, y_train: 1837, y_test: 205
+accuracy for multinomial naive bayes: 0.9170731707317074
+accuracy for gaussian naive bayes: 0.9170731707317074
+accuracy for LogisticRegression: 0.9170731707317074
+accuracy for Decision Tree: 0.8926829268292683
+accuracy for Random Forest: 0.9121951219512195
+
+-----------------------------------------------
+For type Hip-Hop
+lyrics_Hip-Hop.csv
+{'Hip-Hop': 1, 'Non Hip-Hop': 2}
+x_train: 1837, x_test: 205, y_train: 1837, y_test: 205
+accuracy for multinomial naive bayes: 0.9731707317073171
+accuracy for gaussian naive bayes: 0.966829268292683
+accuracy for LogisticRegression: 0.9673170731707317
+accuracy for Decision Tree: 0.9829268292682927
+accuracy for Random Forest: 0.9219512195121952
