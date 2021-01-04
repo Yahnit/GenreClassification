@@ -4,7 +4,7 @@ this song with all the classifiers.
 Some of the classifiers predicted correctly that the song
 belongs to Pop while others predicted that it belongs to
 other genres
- 
+
 ------------------------------------------------
 Who can say where the road goes
 Where the day flows, only time
@@ -30,3 +30,38 @@ Where the day flows, only time
 Who knows? Only time
 Who knows? Only time
 ------------------------------------------------
+
+Processing the data...
+Data processing done!!
+Total songs: 5000
+x_train: 4000, x_test: 1, y_train: 4000, y_test: 1
+
+------------------------------------------------
+Bernoulli Naive Bayes Classifier
+The Actual genre of the song is Pop
+The predicted genre of the song using the model is Jazz
+accuracy for bernoulli naive bayes: 0.0
+
+------------------------------------------------
+Decision Tree Classifier
+The Actual genre of the song is Pop
+The predicted genre of the song using the model is Hip-Hop
+accuracy for Decision Tree: 0.0
+
+------------------------------------------------
+Random Forest Classifier
+The Actual genre of the song is Pop
+The predicted genre of the song using the model is Pop
+accuracy for Random Forest: 1.0
+
+------------------------------------------------
+Multi Layer Perceptron Classifier
+The Actual genre of the song is Pop
+The predicted genre of the song using the model is Country
+accuracy for Multi Layer Perceptron: 0.0
+
+------------------------------------------------
+Logistic Regression Classifier
+The Actual genre of the song is Pop
+The predicted genre of the song using the model is Pop
+accuracy for Logistic Regression: 1.0
